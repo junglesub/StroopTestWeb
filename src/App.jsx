@@ -1,9 +1,20 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Admin from "./Admin";
+import MainPage from "./MainPage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <MainPage />,
+  },
+  {
+    path: "/admin",
+    element: <Admin />,
+  },
+]);
+
 function App() {
-  return (
-    <>
-      <div>Hello World!</div>
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

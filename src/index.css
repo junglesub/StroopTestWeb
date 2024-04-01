@@ -8,3 +8,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.mainPage {
+  font-size: 13em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.adminPage {
+  font-size: 8em;
+  font-weight: bold;
+  text-align: center;
+}
